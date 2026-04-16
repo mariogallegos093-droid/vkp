@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PT. Viqnzu Karya Persada | Kontraktor & Konstruksi</title>
+  <meta name="description" content="Kontraktor bangunan, renovasi, dan sipil. Konsultasi gratis, pengerjaan rapi, timeline jelas, dan dokumentasi progres." />
+
+  <meta property="og:title" content="PT. Viqnzu Karya Persada | Kontraktor & Konstruksi" />
+  <meta property="og:description" content="Kontraktor bangunan, renovasi, dan sipil. Konsultasi gratis dan penawaran RAB." />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span>📍 Cilegon & Sekitarnya</span>
+        <span class="sep">•</span>
+        <a href="mailto:mariogallegos093@gmail.com">mariogallegos093@gmail.com</a>
+      </div>
+      <div class="topbar__right">
+        <a class="topbar__wa" href="https://wa.me/6285232227433" target="_blank" rel="noreferrer">WhatsApp: +62 852-3222-7433</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#home" aria-label="Beranda">
+        <span class="brand__mark">VKP</span>
+        <span class="brand__text">
+          <strong>PT. Viqnzu Karya Persada</strong>
+          <small>Kontraktor & Konstruksi</small>
+        </span>
+      </a>
+
+      <button class="nav__toggle" aria-label="Buka menu" id="navToggle">☰</button>
+
+      <nav class="nav__menu" id="navMenu">
+        <a href="#tentang">Tentang</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#keunggulan">Keunggulan</a>
+        <a href="#kontak" class="btn btn--primary">Minta Penawaran</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="pill">Kontraktor Terpercaya • Kualitas • Tepat Waktu</p>
+        <h1>Bangun dan Renovasi dengan Tim Profesional</h1>
+        <p class="hero__lead">
+          Kami menangani konstruksi gedung, renovasi, dan pekerjaan sipil.
+          Proses rapi, transparan, dan terdokumentasi.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#kontak">Konsultasi Gratis</a>
+          <a class="btn btn--ghost" href="#proyek">Lihat Portofolio</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <strong>10+ Tahun</strong>
+            <span>Pengalaman</span>
+          </div>
+          <div class="stat">
+            <strong>150+</strong>
+            <span>Proyek Selesai</span>
+          </div>
+          <div class="stat">
+            <strong>K3</strong>
+            <span>Standar Keselamatan</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__media">
+        <div class="hero__image" role="img" aria-label="Foto proyek konstruksi">
+          <!-- Placeholder visual -->
+          <div class="hero__overlay">
+            <div class="badge">Design & Build</div>
+            <div class="badge badge--dark">Garansi Pekerjaan</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust -->
+  <section class="trust">
+    <div class="container trust__inner">
+      <div class="trust__item">✅ Konsultasi & Survey</div>
+      <div class="trust__item">✅ RAB Transparan</div>
+      <div class="trust__item">✅ Dokumentasi Progres</div>
+      <div class="trust__item">✅ Serah Terima & Garansi</div>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section class="section" id="tentang">
+    <div class="container grid2">
+      <div>
+        <h2>Tentang Kami</h2>
+        <p>
+          PT. Viqnzu Karya Persada adalah perusahaan kontraktor yang fokus pada konstruksi gedung,
+          renovasi, dan pekerjaan sipil. Kami mengutamakan kualitas, keselamatan kerja (K3),
+          dan ketepatan waktu.
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Visi</h3>
+            <p>Menjadi Perusahaan General Kontraktor terkemuka di industri konstruksi dengan reputasi unggul dalam hal profesionalisme, keandalan dan integritas.</p>
+          </div>
+          <div class="card">
+            <h3>Misi</h3>
+            <ul class="list">
+              <li>Mengutamakan Pengembangan SDM sebagai kunci keberhasilan.</li>
+              <li>Menjamin Proyek selesai tepat waktu dengan biaya efisien dan kualitas tinggi.</li>
+	      <li>Membangun kemitraan yang solid dengan klien, kontraktor dan pemasok.</li>
+              <li>Mengutamakan K3 di setiap proyek.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="legal">
+          <p><strong>Legalitas:</strong></p>
+          <ul class="list list--compact">
+            <li>NIB: 1002250155986</li>
+            <li>NPWP: 1091031211423352</li>
+            <li>SBU Konstruksi PB-UMKU: 10225015598600040001</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="aboutMedia">
+        <div class="aboutMedia__box">
+          <h3>Butuh RAB cepat?</h3>
+          <p>Kirim kebutuhan Anda, kami bantu estimasi awal dan opsi material.</p>
+          <a class="btn btn--primary" href="#kontak">Minta RAB</a>
+        </div>
+
+        <div class="aboutMedia__note">
+          <p class="muted">
+            Catatan: Isi legalitas dan angka statistik di atas silakan Anda sesuaikan.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Layanan -->
+  <section class="section section--alt" id="layanan">
+    <div class="container">
+      <div class="sectionHead">
+        <h2>Layanan</h2>
+        <p>Kami menyediakan layanan end-to-end, dari perencanaan sampai serah terima.</p>
+      </div>
+
+      <div class="serviceGrid">
+        <article class="service">
+          <div class="service__icon">🏢</div>
+          <h3>Konstruksi Gedung</h3>
+          <p>Rumah tinggal, ruko, kantor, gudang, dan bangunan komersial.</p>
+          <ul class="list list--compact">
+            <li>Struktur, arsitektur, MEP</li>
+            <li>Quality control berkala</li>
+            <li>Serah terima + checklist</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <div class="service__icon">🛠️</div>
+          <h3>Renovasi & Interior</h3>
+          <p>Perbaikan, perluasan, finishing, interior, dan re-layout ruang.</p>
+          <ul class="list list--compact">
+            <li>Renovasi dapur, kamar mandi, fasad</li>
+            <li>Plafon, lantai, pengecatan</li>
+            <li>Custom furniture (opsional)</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <div class="service__icon">🚧</div>
+          <h3>Konstruksi Sipil</h3>
+          <p>Pekerjaan pondasi, saluran, jalan lingkungan, dan struktur.</p>
+          <ul class="list list--compact">
+            <li>Drainase & utilitas</li>
+            <li>Pagar & turap</li>
+            <li>Pekerjaan beton & besi</li>
+          </ul>
+        </article>
+
+        <article class="service">
+          <div class="service__icon">🧱</div>
+          <h3>Design & Build</h3>
+          <p>Desain, gambar kerja, RAB, sampai pembangunan dalam satu tim.</p>
+          <ul class="list list--compact">
+            <li>Konsep desain + 3D (opsional)</li>
+            <li>Gambar kerja & spesifikasi</li>
+            <li>Pengawasan terintegrasi</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyek -->
+  <section class="section" id="proyek">
+    <div class="container">
+      <div class="sectionHead">
+        <h2>Portofolio Proyek</h2>
+        <p>Beberapa contoh proyek yang pernah kami tangani.</p>
+      </div>
+
+      <div class="filterBar">
+        <button class="chip is-active" data-filter="all">Semua</button>
+        <button class="chip" data-filter="gedung">Gedung</button>
+        <button class="chip" data-filter="renovasi">Renovasi</button>
+        <button class="chip" data-filter="sipil">Sipil</button>
+      </div>
+
+      <div class="projectGrid" id="projectGrid">
+        <article class="project" data-category="gedung">
+          <div class="project__thumb"></div>
+          <div class="project__body">
+            <h3>Pembangunan Ruko 2 Lantai</h3>
+            <p class="muted">Tangerang • 2025 • 6 bulan</p>
+            <p>Struktur, arsitektur, finishing, dan MEP.</p>
+          </div>
+        </article>
+
+        <article class="project" data-category="renovasi">
+          <div class="project__thumb project__thumb--2"></div>
+          <div class="project__body">
+            <h3>Renovasi Rumah Tinggal</h3>
+            <p class="muted">Jakarta Selatan • 2025 • 10 minggu</p>
+            <p>Re-layout ruang, fasad, lantai, plafon, kamar mandi.</p>
+          </div>
+        </article>
+
+        <article class="project" data-category="sipil">
+          <div class="project__thumb project__thumb--3"></div>
+          <div class="project__body">
+            <h3>Perbaikan Drainase Lingkungan</h3>
+            <p class="muted">Bekasi • 2024 • 4 minggu</p>
+            <p>Galian, pasangan, dan finishing saluran.</p>
+          </div>
+        </article>
+
+        <article class="project" data-category="gedung">
+          <div class="project__thumb project__thumb--4"></div>
+          <div class="project__body">
+            <h3>Pembangunan Kantor</h3>
+            <p class="muted">Depok • 2024 • 5 bulan</p>
+            <p>Struktur, partisi, listrik, AC, dan finishing.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Keunggulan -->
+  <section class="section section--alt" id="keunggulan">
+    <div class="container grid2">
+      <div>
+        <h2>Kenapa Memilih Kami</h2>
+        <p>
+          Kami menggabungkan standar kerja lapangan yang rapi, kontrol kualitas,
+          dan komunikasi yang jelas supaya proyek berjalan aman dan sesuai target.
+        </p>
+
+        <div class="checkGrid">
+          <div class="check">✅ Timeline & milestone jelas</div>
+          <div class="check">✅ Material sesuai spek</div>
+          <div class="check">✅ Dokumentasi foto/video progres</div>
+          <div class="check">✅ Tenaga ahli & mandor berpengalaman</div>
+          <div class="check">✅ Komitmen K3 dan SOP kerja</div>
+          <div class="check">✅ Garansi pekerjaan (sesuai kesepakatan)</div>
+        </div>
+      </div>
+
+      <div class="quote quote--slider">
+        <h3>Testimoni</h3>
+        <div class="testimonialSlider" id="testimonialSlider">
+          <article class="testimonial is-active">
+            <p>“Pengerjaan rapi, tim responsif, dan progress selalu dilaporkan. Hasil sesuai harapan.”</p>
+            <p class="muted">- Bapak Andi, Renovasi Rumah</p>
+          </article>
+          <article class="testimonial">
+            <p>“Tim sangat profesional dan selalu menjelaskan setiap tahap. Proyek selesai sesuai jadwal.”</p>
+            <p class="muted">- Ibu Sari, Kantor Baru</p>
+          </article>
+          <article class="testimonial">
+            <p>“Kami merasa aman dengan komunikasi harian dan standar kerja yang konsisten.”</p>
+            <p class="muted">- Bapak Yoga, Renovasi Ruko</p>
+          </article>
+        </div>
+
+        <div class="testimonialNav">
+          <button class="btn btn--ghost" type="button" data-action="prev">Sebelumnya</button>
+          <button class="btn btn--ghost" type="button" data-action="next">Selanjutnya</button>
+        </div>
+
+        <div class="quote__cta">
+          <a class="btn btn--primary" href="#kontak">Konsultasi Sekarang</a>
+          <a class="btn btn--ghost" href="https://wa.me/6285232227433" target="_blank" rel="noreferrer">Chat WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section class="section" id="kontak">
+    <div class="container grid2">
+      <div>
+        <h2>Kontak</h2>
+        <p>
+          Ceritakan kebutuhan proyek Anda. Kami bisa bantu konsultasi awal, survey lokasi,
+          dan penawaran RAB.
+        </p>
+
+        <div class="contactInfo">
+          <div class="contactInfo__item">
+            <strong>Alamat</strong>
+            <p class="muted">Bukit Cilegon Asri.</p>
+	    <p class="muted">Jl. Bung Tomo Blok DC No. 24, Bagendung, Cilegon - Banten 42419.</p>
+          </div>
+          <div class="contactInfo__item">
+            <strong>Jam Operasional</strong>
+            <p class="muted">Senin - Sabtu, 08:00 - 17:00</p>
+          </div>
+          <div class="contactInfo__item">
+            <strong>Telepon/WhatsApp</strong>
+            <p class="muted"><a href="https://wa.me/6285232227433" target="_blank" rel="noreferrer">+62 852-3222-7433</a></p>
+          </div>
+          <div class="contactInfo__item">
+            <strong>Email</strong>
+            <p class="muted"><a href="mailto:mariogallegos093@gmail.com">mariogallegos093@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="formCard">
+        <h3>Minta Penawaran</h3>
+        <form id="leadForm">
+          <label>
+            Nama
+            <input type="text" name="nama" placeholder="Nama Anda" required />
+          </label>
+          <label>
+            Nomor WhatsApp
+            <input type="tel" name="wa" placeholder="Contoh: 0812xxxx" required />
+          </label>
+          <label>
+            Jenis Pekerjaan
+            <select name="jenis" required>
+              <option value="">Pilih</option>
+              <option>Konstruksi Gedung</option>
+              <option>Renovasi & Interior</option>
+              <option>Konstruksi Sipil</option>
+              <option>Design & Build</option>
+            </select>
+          </label>
+          <label>
+            Detail Kebutuhan
+            <textarea name="detail" rows="4" placeholder="Lokasi, luas, target waktu, kebutuhan khusus, dll." required></textarea>
+          </label>
+
+          <button class="btn btn--primary btn--block" type="submit">Kirim via WhatsApp</button>
+          <p class="muted small">
+            Form ini akan membuka WhatsApp dengan pesan otomatis (tidak menyimpan data ke server).
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>PT. Viqnzu Karya Persada</strong>
+        <p class="muted small">Kontraktor bangunan, renovasi, dan sipil.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#tentang">Tentang</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+      <div class="muted small">© <span id="year"></span> All rights reserved.</div>
+    </div>
+  </footer>
+
+  <div class="stickyCta" id="stickyCta">
+    <div class="stickyCta__text">
+      <strong>Butuh konsultasi cepat?</strong> Chat WhatsApp sekarang untuk estimasi gratis.
+    </div>
+    <a class="btn btn--primary" href="https://wa.me/6285232227433" target="_blank" rel="noreferrer">Chat Sekarang</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
